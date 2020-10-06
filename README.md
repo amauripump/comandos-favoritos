@@ -35,18 +35,9 @@ Para um site não dar diferença de tamanho em dispositivos de retina display, a
 `<meta name="viewport" content="width=device-width, initial-scale=1">`
 
 #### Css apenas para o mobile
-`@media (max-width: 813px) {
-    #frm-sucesso{
-        max-width: none;
-    }
-    #frm-sucesso h2{
-        font-size: 20px;
-        padding-left: 10vw;
-        padding-right: 10vw;
-    }
 
-    .paginacao-tamanho{
-        padding-left: 0;
-        padding-right: 0;
-    }
-}`
+```css
+@media (max-width: 813px) { 
+	.id{ max-width: none;  } 
+}
+```
