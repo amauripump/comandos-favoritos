@@ -9,11 +9,15 @@
 
 ##### Data dd/mm/YYYY
 
-`DATE_FORMAT(CAMPO,'%d/%m/%Y')`
+```sql
+SELECT DATE_FORMAT(CAMPO,'%d/%m/%Y')
+```
 
-##### Data dd/mm/YYYY hh:mm:ss
+##### Data dd/mm/YYYY hh : mm : ss
 
-`DATE_FORMAT(CAMPO,'%d/%m/%Y %H:%i:%s')`
+```sql
+SELECT DATE_FORMAT(CAMPO,'%d/%m/%Y %H:%i:%s')
+```
 
 - Formatar moeda 0.000,00
 
@@ -24,7 +28,13 @@
 
 ### PHP
 
+Mostrar todos tipos de erros
 
+```php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+```
 ------------
 
 
