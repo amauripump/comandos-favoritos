@@ -21,7 +21,17 @@ SELECT DATE_FORMAT(CAMPO,'%d/%m/%Y %H:%i:%s')
 
 - Formatar moeda 0.000,00
 
-` format(upoker_rake,2,'de_DE')`
+```sql
+format(upoker_rake,2,'de_DE')`
+```
+
+- Criar uma tabela a partir de um SELECT
+
+```sql
+CREATE TABLE ac_app_torneios
+  SELECT *
+  FROM app_torneios WHERE id = 1
+```
 
 ------------
 
