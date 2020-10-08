@@ -28,9 +28,9 @@ format(upoker_rake,2,'de_DE')`
 - Criar uma tabela a partir de um SELECT
 
 ```sql
-CREATE TABLE ac_app_torneios
+CREATE TABLE tabela_nova
   SELECT *
-  FROM app_torneios WHERE id = 1
+  FROM tabela_origem WHERE id = 1
 ```
 
 ------------
