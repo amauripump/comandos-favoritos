@@ -33,6 +33,20 @@ CREATE TABLE tabela_nova
   FROM tabela_origem WHERE id = 1
 ```
 
+- INSERT a partir de um SELECT
+
+```sql
+INSERT INTO destination_table(
+	name, date, status
+)
+SELECT 
+	name, date, status 
+FROM 
+   origin_table
+WHERE
+   status = 1;
+```
+
 ------------
 
 
