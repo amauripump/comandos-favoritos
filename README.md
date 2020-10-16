@@ -75,3 +75,11 @@ Para um site não dar diferença de tamanho em dispositivos de retina display, a
 	.id{ max-width: none;  } 
 }
 ```
+
+### MAMP
+
+#### Quando precisar trocar a pasta do SERVER ROOT do Apache com HTTPS
+Mudar no arquivo /Applications/MAMP/conf/apache/extra/httpd-ssl.conf para a pasta desejada.
+`DocumentRoot "/Applications/MAMP/Library/htdocs"`
+
+fonte: https://gist.github.com/jfloff/5138826
